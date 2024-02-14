@@ -61,12 +61,34 @@
 
                 # Lesson test 2
                 
-a = 2
-b = 5
-c = 10
+# a = 2
+# b = 5
+# c = 10
 
-if c < a * b and (c % a == 0 or c % b == 0):
-    res = 'yes'
+# if c < a * b and (c % a == 0 or c % b == 0):
+#     res = 'yes'
+# else:
+#     res = 'no'
+# print(res)                        
+
+
+num = int(input('Introdu cifra: '))
+if num >= 10:
+    if num <= 20:
+        result = "Mai mic sau egal cu 10 si mai mic decat 20"
+    else:
+        result = "Mai mare decat 20"
 else:
-    res = 'no'
-print(res)                        
+    result = "Mai mic decat 10"
+    
+print(result) 
+
+
+# if num > 10 or num < 20:
+#     result = 'Mai mare de 10 si mai mic de 20'
+# elif num == 10 and num < 20:
+#     result = 'Egal cu 10 si mai mic de 20'
+# else:
+#     result = 'Nu merge incearca inca odata'
+    
+# print(result)    
