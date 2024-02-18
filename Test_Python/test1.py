@@ -61,12 +61,21 @@
 
                 # Lesson test 2
                 
-a = 2
-b = 5
-c = 10
+# a = 2
+# b = 5
+# c = 10
 
-if c < a * b and (c % a == 0 or c % b == 0):
-    res = 'yes'
-else:
-    res = 'no'
-print(res)                        
+# if c < a * b and (c % a == 0 or c % b == 0):
+#     res = 'yes'
+# else:
+#     res = 'no'
+# print(res)                        
+
+
+# from decimal import Decimal
+
+# numbers = Decimal('0.91')
+# print(numbers*10)
+
+my_string = 'Salut Catiusa'+ ' si Marchiza'
+print(my_string[:-9])
