@@ -64,6 +64,9 @@
 # a = 2
 # b = 5
 # c = 10
+# a = 2
+# b = 5
+# c = 10
 
 # if c < a * b and (c % a == 0 or c % b == 0):
 #     res = 'yes'
