@@ -7,3 +7,5 @@ name = str(input('Name: '))
 number1 = int(input('Age: '))
 result = number1 + 1
 print(name, 'next birthday you will be', result)
+
+

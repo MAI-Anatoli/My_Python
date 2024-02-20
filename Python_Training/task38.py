@@ -7,3 +7,10 @@
 # вторите вывод равное
 # введенному числу коли-
 # чество раз.
+
+name = input('Enter name: ')
+mum = int(input('Enter number: '))
+for i in name:
+  for _ in range(mum):
+    print(i)
+

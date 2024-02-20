@@ -7,3 +7,10 @@
 # ном случае она выводит
 # сообщение «Too high»
 # три раза.
+
+name = input("Введите имя: ")
+num = int(input("Введите число: "))
+for i in range(num):
+    if num < 10:
+        print(name)
+      
