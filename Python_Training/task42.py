@@ -4,3 +4,11 @@
 # положительным, прибавьте введенное число к total. Если же ответ
 # будет отрицательным, число к total не прибавляется. После ввода
 # всех пяти чисел выведите значение total.
+
+total = 0
+for i in range(5):
+  num = int(input("Enter a number: "))
+  answer = input("Do you want to include this number? ")
+  if answer == "yes":
+    total += num
+print(total)
