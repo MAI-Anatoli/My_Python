@@ -1,10 +1,12 @@
-num = int(input("Enter a number: "))
-num2 = int(input("Enter a number: "))
-sum = num + num2
-result = input("Do you want to add another number? (y/n): ")
-while result == "y":
-  num3 = int(input("Enter a number: "))
-  sum = sum + num3
-  result = input("Do you want to add another number? (y/n): ")
-  if result == "n":
-    print('Sum: ',sum)
+
+user = int(input('Enter a number 10-20 : '))
+while user < 10:
+    print('Too low')
+    user = int(input('Enter a number 10-20 : '))
+    
+while user > 20:
+    print('Too high')
+    user = int(input('Enter a number 10-20 : ')) 
+    
+if user >= 10 and user <= 20:
+    print('Thank you')

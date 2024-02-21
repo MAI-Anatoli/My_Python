@@ -16,4 +16,3 @@ while guests == 'y':
     count += 1
 if guests == 'n':
         print(count)
-      
