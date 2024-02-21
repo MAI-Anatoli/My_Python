@@ -1,10 +1,17 @@
-num = int(input("Enter a number: "))
-num2 = int(input("Enter a number: "))
-sum = num + num2
-result = input("Do you want to add another number? (y/n): ")
-while result == "y":
-  num3 = int(input("Enter a number: "))
-  sum = sum + num3
-  result = input("Do you want to add another number? (y/n): ")
-  if result == "n":
-    print('Sum: ',sum)
+comp_num = 50
+user_num = int(input('Enter a num: '))
+count = 1
+
+while user_num < comp_num:
+   print('Try entering a higher number =>')       
+   user_num = int(input('Enter a num =>: ')) 
+   count += 1
+
+if user_num > comp_num:
+      print('Try entering a lower number <=')
+      user_num = int(input('Enter a num <=: '))
+      count += 1
+  
+if user_num == comp_num:
+  print(f'Well done, you took, {count} attempts') 
+
