@@ -11,7 +11,7 @@
 name = input("Введите имя: ")
 num = int(input("Введите число: "))
 for i in range(num):
-  if num < 10:
-    print(name)
+    if num < 10:
+        print(name)
 for i in range(3):
-  print("Too high")
+    print("Too high")
