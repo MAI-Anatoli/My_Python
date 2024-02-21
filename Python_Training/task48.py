@@ -16,3 +16,16 @@ while guests == 'y':
     count += 1
 if guests == 'n':
         print(count)
+
+##########################################################################
+
+                # Решение с книги
+                
+again = "y"
+count = 0
+while again == "y":
+    name = input("Enter a name of somebody you want to invite to the party: ")
+print(name, " has been invited")
+count = count + 1
+again = input("Do you want to invite somebody else? (y/n) ")
+print("You have ", count, " people coming to your party")
