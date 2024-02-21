@@ -3,5 +3,5 @@
 # числа.
 
 num = int(input('Enter a number: '))
-for i in range(1, 12):
+for i in range(1, 12 +1):
   print(f'{num} * {i} = {num * i}')
